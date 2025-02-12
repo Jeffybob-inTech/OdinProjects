@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>Sign Up For FutureFund</title>
+</head>
+<body>
+  <div class="everythingForSignUpForm">
+    <h1>Sign Up For FutureFund</h1>
+    <form action="#" method="post">
+      <label for="emailInput">Email*</label>
+      <input type="email" name="email" id="emailInput" required>
+      <label for="passwordInput">Password*</label>
+      <input type="password" name="password" id="passwordInput" required minlength="8" maxlength="16">
+      
+      <label for="passwordConformation">Confirm Your Password*</label>
+      <input type="password" id="passwordConformation" required minlength="8" maxlength="16" pattern=#passwordInput.value>
+      <button type="button" id="googleSignUp">Sign Up With Google <img src="7123025_logo_google_g_icon.png" alt="G"></button>
+      <button type="submit" id="submitButton">Sign Up</button>
+    </form>
+  </div>
+</body>
+</html>
