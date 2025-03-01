@@ -1,0 +1,7 @@
+.libraryTable:hover{
+  cursor:pointer;
+}
+.libraryTable:active{
+  background-color: black;
+  color: white;
+}

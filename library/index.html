@@ -3,11 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Libaray</title>
 </head>
 <body>
-  <table id="libraryTable">
+  <table class="libraryTable" id="libraryTable">
   </table>
+  
+    <label for="bookName">Book's Title</label>
+    <input type="text" name="bookName" id="bookInput" class="bookInput" required>
+    <label for="authorName">Book's Author</label>
+    <input type="text" name="authorName" id="authorInput" class="authorInput" required>
+    <label for="pagesName">Book's Number of Pages</label>
+    <input type="number" name="pagesName" id="pagesInput" class="pagesInput" required>
+    <input type="submit" value="Add New Book" class="submitBook" id="submitBook">
+  
   <script src="index.js"></script>
 </body>
 </html>
